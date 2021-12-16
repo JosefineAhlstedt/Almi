@@ -26,6 +26,10 @@ a {
     margin-right: 2rem !important;
 }
 
+.rubrik {
+    font-weight: bold;
+}
+
 .btn {
     background-color: #870AA0;
     border: none;
@@ -70,7 +74,7 @@ a {
 .hero {
     margin: 1em;
     height: 25em;
-    background-image: url(assets/hero_guy.png), url(assets/hero_ill.svg);
+    background-image: url(assets/hero_guy_1.png), url(assets/hero_ill.svg);
     background-position: center, center;
     background-size: contain, contain;
     background-repeat: no-repeat, no-repeat;
@@ -78,6 +82,10 @@ a {
 
 #hero {
     text-align: center;
+}
+
+.hero_text {
+    margin-bottom: 15%;
 }
 
 .img {
@@ -112,7 +120,6 @@ a {
     width: 10rem;
 }
 
-
 .container-fluid {
     padding: 2em;
 }
@@ -141,7 +148,7 @@ a {
 }
 
 .offer_ill {
-    background-image: url(assets/offer_ill_1.svg);
+    background-image: url(assets/offer_ill_2.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 25em;
@@ -151,6 +158,10 @@ a {
 
 .offer {
     margin-bottom: 0;
+}
+
+.offer_text {
+    padding: 5%;
 }
 
 ul.timeline {
@@ -208,7 +219,7 @@ li {
     margin-top: 10%;
     margin-bottom: 0;
     height: 25em;
-    background-image: url(assets/bottom_2.png), url(assets/hero_ill.svg);
+    background-image: url(assets/bottom_3.png), url(assets/hero_ill.svg);
     background-position: bottom, bottom;
     background-size: contain, contain;
     background-repeat: no-repeat, no-repeat;
